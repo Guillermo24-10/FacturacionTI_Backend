@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\Common\" />
+    <Folder Include="UseCases\Empresa\" />
+    <Folder Include="UseCases\Facturacion\" />
+    <Folder Include="UseCases\Catalogos\" />
+    <Folder Include="UseCases\Inventario\" />
+    <Folder Include="UseCases\Caja\" />
+    <Folder Include="UseCases\Reportes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="16.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FacturacionTI.Domain\FacturacionTI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

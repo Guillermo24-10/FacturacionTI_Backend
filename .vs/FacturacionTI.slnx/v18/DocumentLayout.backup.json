@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4BAC00-8C60-4790-866F-E58D1ADE5331}|FacturacionTI.Api\\FacturacionTI.Api.csproj|f:\\proyect_visual\\blazor\\facturacionti\\facturacionti.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4BAC00-8C60-4790-866F-E58D1ADE5331}|FacturacionTI.Api\\FacturacionTI.Api.csproj|solutionrelative:facturacionti.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F4BAC00-8C60-4790-866F-E58D1ADE5331}|FacturacionTI.Api\\FacturacionTI.Api.csproj|f:\\proyect_visual\\blazor\\facturacionti\\facturacionti.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F4BAC00-8C60-4790-866F-E58D1ADE5331}|FacturacionTI.Api\\FacturacionTI.Api.csproj|solutionrelative:facturacionti.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F45F4FB-88CA-477F-B1CA-7D3C920E465E}|FacturacionTI.Application\\FacturacionTI.Application.csproj|f:\\proyect_visual\\blazor\\facturacionti\\facturacionti.application\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F45F4FB-88CA-477F-B1CA-7D3C920E465E}|FacturacionTI.Application\\FacturacionTI.Application.csproj|solutionrelative:facturacionti.application\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35724604-46E9-4017-848B-594E349ED287}|FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj|f:\\proyect_visual\\blazor\\facturacionti\\facturacionti.infrastructure\\identity\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35724604-46E9-4017-848B-594E349ED287}|FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj|solutionrelative:facturacionti.infrastructure\\identity\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35724604-46E9-4017-848B-594E349ED287}|FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj|f:\\proyect_visual\\blazor\\facturacionti\\facturacionti.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35724604-46E9-4017-848B-594E349ED287}|FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj|solutionrelative:facturacionti.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35724604-46E9-4017-848B-594E349ED287}|FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj|f:\\proyect_visual\\blazor\\facturacionti\\facturacionti.infrastructure\\persistencia\\dapper\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35724604-46E9-4017-848B-594E349ED287}|FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj|solutionrelative:facturacionti.infrastructure\\persistencia\\dapper\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35724604-46E9-4017-848B-594E349ED287}|FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj|f:\\proyect_visual\\blazor\\facturacionti\\facturacionti.infrastructure\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35724604-46E9-4017-848B-594E349ED287}|FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj|solutionrelative:facturacionti.infrastructure\\identity\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:471218599:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:938577012:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\Program.cs",
+              "RelativeDocumentMoniker": "FacturacionTI.Api\\Program.cs",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\Program.cs",
+              "RelativeToolTip": "FacturacionTI.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T05:25:54.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FacturacionTI.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FacturacionTI.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T04:29:27.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Application\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "FacturacionTI.Application\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Application\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "FacturacionTI.Application\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T04:23:26.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\Identity\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "FacturacionTI.Infrastructure\\Identity\\PasswordHasher.cs",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\Identity\\PasswordHasher.cs",
+              "RelativeToolTip": "FacturacionTI.Infrastructure\\Identity\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T03:49:53.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "FacturacionTI.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "FacturacionTI.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wDEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T03:34:22.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\Persistencia\\Dapper\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "FacturacionTI.Infrastructure\\Persistencia\\Dapper\\DbConnectionFactory.cs",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\Persistencia\\Dapper\\DbConnectionFactory.cs",
+              "RelativeToolTip": "FacturacionTI.Infrastructure\\Persistencia\\Dapper\\DbConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T02:41:39.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\Identity\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "FacturacionTI.Infrastructure\\Identity\\JwtSettings.cs",
+              "ToolTip": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\Identity\\JwtSettings.cs",
+              "RelativeToolTip": "FacturacionTI.Infrastructure\\Identity\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T02:28:18.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1040,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4e46f1e-cf83-40aa-b568-a627394bc994}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

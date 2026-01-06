@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Application/">
+    <Project Path="FacturacionTI.Application/FacturacionTI.Application.csproj" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="FacturacionTI.Domain/FacturacionTI.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="FacturacionTI.Infrastructure/FacturacionTI.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Servicio/">
+    <Project Path="FacturacionTI.Api/FacturacionTI.Api.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="FacturacionTI.Shared/FacturacionTI.Shared.csproj" />
+  </Folder>
+</Solution>
