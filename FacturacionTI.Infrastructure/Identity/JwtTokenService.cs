@@ -1,4 +1,5 @@
-﻿using FacturacionTI.Application.Interfaces.Services;
+﻿using FacturacionTI.Application.Common;
+using FacturacionTI.Application.Interfaces.Services;
 using FacturacionTI.Shared.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -14,13 +15,13 @@ namespace FacturacionTI.Infrastructure.Identity
         private readonly JwtSettings _jwtSettings;
         private readonly ILoggerApp _logger;
 
-        public JwtTokenService(IOptions<JwtSettings> jwtSettings, SerilogLogger logger)
+        public JwtTokenService(IOptions<JwtSettings> jwtSettings, ILoggerApp logger)
         {
             _jwtSettings = jwtSettings.Value;
             _logger = logger;
         }
 
-        public string GenerateAccessToken(string Ruc, Guid usuarioId, string email, List<string> roles)
+        public TokenResult GenerateAccessToken(string Ruc, Guid usuarioId, string email, List<string> roles)
         {
             var claims = new List<Claim>()
             {
@@ -38,6 +39,7 @@ namespace FacturacionTI.Infrastructure.Identity
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Secret));
             var credential = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+            var expiration = DateTime.UtcNow.AddMinutes(_jwtSettings.ExpirationInMinutes);
 
             var token = new JwtSecurityToken
                 (
@@ -45,10 +47,17 @@ namespace FacturacionTI.Infrastructure.Identity
                     audience: _jwtSettings.Audience,
                     claims: claims,
                     signingCredentials: credential,
-                    expires: DateTime.Now.AddMinutes(_jwtSettings.ExpirationInMinutes)
+                    expires: expiration
                 );
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            var tokenString = new JwtSecurityTokenHandler()
+                        .WriteToken(token);
+
+            return new TokenResult
+            {
+                Token = tokenString,
+                Expiration = expiration
+            };
         }
 
         public string GenerateRefreshToken()

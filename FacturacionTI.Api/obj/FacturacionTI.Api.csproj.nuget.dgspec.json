@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\FacturacionTI.Api.csproj": {}
+    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Api\\FacturacionTI.Api.csproj": {}
   },
   "projects": {
-    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\FacturacionTI.Api.csproj": {
+    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Api\\FacturacionTI.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\FacturacionTI.Api.csproj",
+        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Api\\FacturacionTI.Api.csproj",
         "projectName": "FacturacionTI.Api",
-        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\FacturacionTI.Api.csproj",
+        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Api\\FacturacionTI.Api.csproj",
         "packagesPath": "C:\\Users\\acuar\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\obj\\",
+        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj": {
-                "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj"
+              "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj": {
+                "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj"
               }
             }
           }
@@ -58,6 +58,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.11.10, )"
             }
           },
           "imports": [
@@ -497,14 +501,14 @@
         }
       }
     },
-    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Application\\FacturacionTI.Application.csproj": {
+    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Application\\FacturacionTI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Application\\FacturacionTI.Application.csproj",
+        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Application\\FacturacionTI.Application.csproj",
         "projectName": "FacturacionTI.Application",
-        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Application\\FacturacionTI.Application.csproj",
+        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Application\\FacturacionTI.Application.csproj",
         "packagesPath": "C:\\Users\\acuar\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Application\\obj\\",
+        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -526,8 +530,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj": {
-                "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj"
+              "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj": {
+                "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj"
               }
             }
           }
@@ -847,14 +851,14 @@
         }
       }
     },
-    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj": {
+    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj",
+        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj",
         "projectName": "FacturacionTI.Domain",
-        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj",
+        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj",
         "packagesPath": "C:\\Users\\acuar\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Domain\\obj\\",
+        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1187,14 +1191,14 @@
         }
       }
     },
-    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj": {
+    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj",
+        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj",
         "projectName": "FacturacionTI.Infrastructure",
-        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj",
+        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\acuar\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\obj\\",
+        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1216,11 +1220,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Application\\FacturacionTI.Application.csproj": {
-                "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Application\\FacturacionTI.Application.csproj"
+              "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Application\\FacturacionTI.Application.csproj": {
+                "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Application\\FacturacionTI.Application.csproj"
               },
-              "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj": {
-                "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj"
+              "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj": {
+                "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj"
               }
             }
           }
@@ -1580,14 +1584,14 @@
         }
       }
     },
-    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj": {
+    "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj",
+        "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj",
         "projectName": "FacturacionTI.Shared",
-        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj",
+        "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Shared\\FacturacionTI.Shared.csproj",
         "packagesPath": "C:\\Users\\acuar\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Shared\\obj\\",
+        "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

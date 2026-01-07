@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oHucWS2bPGk=",
+  "dgSpecHash": "VE8psAIMJyQ=",
   "success": true,
-  "projectFilePath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj",
+  "projectFilePath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Domain\\FacturacionTI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

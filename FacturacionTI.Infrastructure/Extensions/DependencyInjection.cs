@@ -1,7 +1,10 @@
-﻿using FacturacionTI.Application.Interfaces.Security;
+﻿using FacturacionTI.Application.Interfaces.Repositories;
+using FacturacionTI.Application.Interfaces.Security;
 using FacturacionTI.Application.Interfaces.Services;
 using FacturacionTI.Infrastructure.Identity;
 using FacturacionTI.Infrastructure.Persistencia.Dapper;
+using FacturacionTI.Infrastructure.Repositories;
+using FacturacionTI.Shared.Logging;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -46,6 +49,8 @@ namespace FacturacionTI.Infrastructure.Exntesions
             services.AddSingleton<DbConnectionFactory>();
             services.AddScoped<ITokenService, JwtTokenService>();
             services.AddScoped<IPasswordHasher, PasswordHasher>();
+            services.AddScoped<ILoggerApp, SerilogLogger>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
             return services;
         }

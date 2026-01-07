@@ -1,0 +1,12 @@
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\bin\Debug\net10.0\FacturacionTI.Shared.deps.json
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\bin\Debug\net10.0\FacturacionTI.Shared.dll
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\bin\Debug\net10.0\FacturacionTI.Shared.pdb
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\obj\Debug\net10.0\FacturacionTI.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\obj\Debug\net10.0\FacturacionTI.Shared.AssemblyInfoInputs.cache
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\obj\Debug\net10.0\FacturacionTI.Shared.AssemblyInfo.cs
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\obj\Debug\net10.0\FacturacionTI.Shared.csproj.CoreCompileInputs.cache
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\obj\Debug\net10.0\FacturacionTI.Shared.sourcelink.json
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\obj\Debug\net10.0\FacturacionTI.Shared.dll
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\obj\Debug\net10.0\refint\FacturacionTI.Shared.dll
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\obj\Debug\net10.0\FacturacionTI.Shared.pdb
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Shared\obj\Debug\net10.0\ref\FacturacionTI.Shared.dll

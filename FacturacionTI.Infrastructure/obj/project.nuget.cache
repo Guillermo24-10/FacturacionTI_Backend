@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pYCXTkIDYvg=",
+  "dgSpecHash": "XHkD0r/4nwY=",
   "success": true,
-  "projectFilePath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj",
+  "projectFilePath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\acuar\\.nuget\\packages\\automapper\\16.0.0\\automapper.16.0.0.nupkg.sha512",
     "C:\\Users\\acuar\\.nuget\\packages\\azure.core\\1.49.0\\azure.core.1.49.0.nupkg.sha512",

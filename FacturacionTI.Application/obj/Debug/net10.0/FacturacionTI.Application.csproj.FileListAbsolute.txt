@@ -1,0 +1,16 @@
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\bin\Debug\net10.0\FacturacionTI.Application.deps.json
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\bin\Debug\net10.0\FacturacionTI.Application.dll
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\bin\Debug\net10.0\FacturacionTI.Application.pdb
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\bin\Debug\net10.0\FacturacionTI.Domain.dll
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\bin\Debug\net10.0\FacturacionTI.Domain.pdb
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\FacturacionTI.Application.csproj.AssemblyReference.cache
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\FacturacionTI.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\FacturacionTI.Application.AssemblyInfoInputs.cache
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\FacturacionTI.Application.AssemblyInfo.cs
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\FacturacionTI.Application.csproj.CoreCompileInputs.cache
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\FacturacionTI.Application.sourcelink.json
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\Facturac.3BB895BB.Up2Date
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\FacturacionTI.Application.dll
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\refint\FacturacionTI.Application.dll
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\FacturacionTI.Application.pdb
+F:\Proyect_Visual\BLAZOR\FacturacionTI.Backend\FacturacionTI.Application\obj\Debug\net10.0\ref\FacturacionTI.Application.dll

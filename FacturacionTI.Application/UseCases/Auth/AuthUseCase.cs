@@ -29,7 +29,7 @@ namespace FacturacionTI.Application.UseCases.Auth
         public async Task<BaseResponse<UserDtoResponse>> LoginAsync(LoginRequest request)
         {
             var response = new BaseResponse<UserDtoResponse>();
-
+            var passBycript = _passwordHasher.Hash("Admin123");
             var usuario = await _usuarioRepository.ObtenerInfoUsuarioAsync(request);
             if (usuario == null)
             {
@@ -38,7 +38,7 @@ namespace FacturacionTI.Application.UseCases.Auth
                 return response;
             }
 
-            var isPasswordValid = _passwordHasher.Verify(request.Password, usuario.Password);
+            var isPasswordValid = _passwordHasher.Verify(request.Password, usuario.PasswordHash);
             if (!isPasswordValid)
             {
                 response.IsSuccess = false;
@@ -51,11 +51,13 @@ namespace FacturacionTI.Application.UseCases.Auth
             response.Message = "Autenticacion exitosa!";
             response.Data = new UserDtoResponse
             {
-                Token = usuario.Token,
+                Token = token.Token,
                 Ruc = usuario.Ruc,
                 Email = usuario.Email,
                 Roles = usuario.Roles,
-                ExpirationToken = DateTime.Now.AddHours(1)
+                ExpirationToken = token.Expiration,
+                Permisos = usuario.Permisos,
+                Username = request.UserName
             };
 
             return response;

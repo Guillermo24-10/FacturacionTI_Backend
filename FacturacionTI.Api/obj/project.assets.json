@@ -395,6 +395,22 @@
           }
         }
       },
+      "Scalar.AspNetCore/2.11.10": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Serilog/4.3.1-dev-02395": {
         "type": "package",
         "compile": {
@@ -1126,6 +1142,25 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
+    "Scalar.AspNetCore/2.11.10": {
+      "sha512": "tkiZTK3pxiniTl9sVz5WY2bn8Y+vaFu9yo2Qrs4guMXoBB3wTbKwXIwFvcZnpantGeYxSk9/+UZ5BQ6eFG69Dw==",
+      "type": "package",
+      "path": "scalar.aspnetcore/2.11.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net10.0/Scalar.AspNetCore.dll",
+        "lib/net10.0/Scalar.AspNetCore.xml",
+        "lib/net8.0/Scalar.AspNetCore.dll",
+        "lib/net8.0/Scalar.AspNetCore.xml",
+        "lib/net9.0/Scalar.AspNetCore.dll",
+        "lib/net9.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.2.11.10.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
+      ]
+    },
     "Serilog/4.3.1-dev-02395": {
       "sha512": "mPreTBBKb1zW53sLkk45eLPY5ROe9se2W3KNRCBI7v8nkSFbOR1mhLSSLW2OHL2xl0WGqrYel1dLHzTFXwC/iQ==",
       "type": "package",
@@ -1400,7 +1435,8 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "FacturacionTI.Infrastructure >= 1.0.0",
-      "Microsoft.AspNetCore.OpenApi >= 10.0.1"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.1",
+      "Scalar.AspNetCore >= 2.11.10"
     ]
   },
   "packageFolders": {
@@ -1410,11 +1446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\FacturacionTI.Api.csproj",
+      "projectUniqueName": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Api\\FacturacionTI.Api.csproj",
       "projectName": "FacturacionTI.Api",
-      "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\FacturacionTI.Api.csproj",
+      "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Api\\FacturacionTI.Api.csproj",
       "packagesPath": "C:\\Users\\acuar\\.nuget\\packages\\",
-      "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Api\\obj\\",
+      "outputPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1436,8 +1472,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj": {
-              "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj"
+            "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj": {
+              "projectPath": "F:\\Proyect_Visual\\BLAZOR\\FacturacionTI.Backend\\FacturacionTI.Infrastructure\\FacturacionTI.Infrastructure.csproj"
             }
           }
         }
@@ -1461,6 +1497,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.1, )"
+          },
+          "Scalar.AspNetCore": {
+            "target": "Package",
+            "version": "[2.11.10, )"
           }
         },
         "imports": [

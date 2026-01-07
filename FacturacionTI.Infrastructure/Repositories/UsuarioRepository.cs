@@ -2,6 +2,7 @@
 using FacturacionTI.Application.DTOs.Facturacion.Usuario;
 using FacturacionTI.Application.DTOs.Security;
 using FacturacionTI.Application.Interfaces.Repositories;
+using FacturacionTI.Application.Models.Auth;
 using FacturacionTI.Infrastructure.Persistencia.Dapper;
 using FacturacionTI.Shared.Logging;
 using System.Data;
@@ -24,25 +25,35 @@ namespace FacturacionTI.Infrastructure.Repositories
             throw new NotImplementedException();
         }
 
-        public async Task<UserDtoResponse> ObtenerInfoUsuarioAsync(LoginRequest request)
+        public async Task<UsuarioAuthModel> ObtenerInfoUsuarioAsync(LoginRequest request)
         {
-            var response = new UserDtoResponse();
+            var usuario = new UsuarioAuthModel();
 
             try
             {
                 using (var con = _connectionFactory.CrearConexion())
                 {
-                    var sp = "";
+                    var sp = "SP_VALIDAR_USUARIO";
                     var param = new DynamicParameters();
-                    param.Add("@Ruc", request.Ruc);
-                    param.Add("@Username", request.UserName);
-                    param.Add("@Password", request.Password);
+                    param.Add("@RUC", request.Ruc);
+                    param.Add("@USERNAME", request.UserName);
+                    //param.Add("@PASSWORD", request.Password);
 
-                    response = await con.QueryFirstOrDefaultAsync<UserDtoResponse>
-                                        (sp, param, commandType: CommandType.StoredProcedure);
+                    using var multi = await con.QueryMultipleAsync(sp, param, commandType: CommandType.StoredProcedure);
+
+                    //usaurio
+                    usuario = await multi.ReadFirstOrDefaultAsync<UsuarioAuthModel>();
+                    if (usuario == null)
+                        return null!;
+
+                    //roles
+                    usuario.Roles = (await multi.ReadAsync<string>()).ToList();
+
+                    //permisos
+                    usuario.Permisos = (await multi.ReadAsync<string>()).ToList();
                 }
 
-                return response!;
+                return usuario!;
             }
             catch (Exception ex)
             {
