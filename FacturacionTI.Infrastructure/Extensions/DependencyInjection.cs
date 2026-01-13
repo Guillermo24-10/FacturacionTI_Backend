@@ -1,6 +1,7 @@
 ﻿using FacturacionTI.Application.Interfaces.Repositories;
 using FacturacionTI.Application.Interfaces.Security;
 using FacturacionTI.Application.Interfaces.Services;
+using FacturacionTI.Infrastructure.ExternalServices;
 using FacturacionTI.Infrastructure.Identity;
 using FacturacionTI.Infrastructure.Persistencia.Dapper;
 using FacturacionTI.Infrastructure.Repositories;
@@ -51,6 +52,7 @@ namespace FacturacionTI.Infrastructure.Exntesions
             services.AddScoped<IPasswordHasher, PasswordHasher>();
             services.AddScoped<ILoggerApp, SerilogLogger>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IEmailService, EmailService>();
 
             return services;
         }

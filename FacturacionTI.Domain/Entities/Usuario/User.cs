@@ -11,6 +11,7 @@
         public DateTime FechaRegistro { get; set; }
         public bool IsActive { get; set; }
         public string Rol { get; set; } = string.Empty;
+        public bool EmailConfirmado { get; set; }
 
     }
 }

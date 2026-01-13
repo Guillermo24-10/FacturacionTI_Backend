@@ -1,4 +1,5 @@
-﻿using FacturacionTI.Application.DTOs.Security;
+﻿using FacturacionTI.Application.DTOs.Auth;
+using FacturacionTI.Application.DTOs.Security;
 using FacturacionTI.Application.Interfaces.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,6 +24,33 @@ namespace FacturacionTI.Api.Controllers
             if (!result.IsSuccess)
                 return BadRequest(result);
 
+            return Ok(result);
+        }
+
+        [HttpPost("confirm-email")]
+        public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailRequest request)
+        {
+            var result = await _authService.ConfirmEmailAsync(request);
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpPost("forgot-password")]
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordRequest request)
+        {
+            var result = await _authService.ForgotPasswordAsync(request);
+            if (!result.IsSuccess)
+                return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpPost("reset-password")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordRequest request)
+        {
+            var result = await _authService.ResetPasswordAsync(request);
+            if (!result.IsSuccess)
+                return BadRequest(result);
             return Ok(result);
         }
     }
